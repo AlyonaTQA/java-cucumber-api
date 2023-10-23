@@ -102,8 +102,4 @@ public class MyStepdefs {
         Assertions.assertEquals(0, count, "User is not deleted!");
     }
 
-    @Given("debug")
-    public void debug() {
-        System.out.format("Thread ID - %2d\n", Thread.currentThread().threadId());
-    }
 }
